@@ -16,9 +16,6 @@ Description of the App:
 Features:  
 
 
-
-Live link : https://ch1mp5t0n.github.io/The-Boys/Jvv.html
-
 Other Info:  
 Jvv.html = main page  
 Aboutus.html = About us page  
