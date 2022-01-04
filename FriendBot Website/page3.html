@@ -1,0 +1,110 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="icon" href="pacman.gif" />
+        <title>FriendBot</title>
+    </head>
+    <style type="text/css">
+        body{
+            background-color: aquamarine;
+            background-image: url("dust1.png"), url("dust2.png");
+            font-family: Helvetica, sans-serif;
+            background-repeat: space;
+            font-size: 19px;
+            font-weight: normal;
+            line-height: 40px;
+        }
+
+        .rectangle{
+            width: 400px;
+            height: 45px;
+            position:  absolute;
+            top:  355px;
+            left: 15px;
+            background-color: #91B2C7;
+        }
+
+        .rectangle2{
+            width: 400px;
+            height: 45px;
+            position:  absolute;
+            top:  355px;
+            left: 940px;
+            background-color: #91B2C7;
+        }
+
+        .arrow{
+            width: 0;
+            height: 0px;
+            position: absolute;
+            top: 355px;
+            left:  414px;
+            border-top: 22px solid transparent;
+            border-left: 40px solid #91B2C7;
+            border-bottom: 22px solid transparent;
+        }
+
+        .arrow2{
+            width: 0;
+            height: 0px;
+            position: absolute;
+            top: 355px;
+            left:  900px;
+            border-top: 22px solid transparent;
+            border-right: 40px solid #91B2C7;
+            border-bottom: 22px solid transparent;
+        }
+    </style>
+    <body>
+        <div style="border: 10px solid #91B2C7;border-style: double;border-radius: 10px; padding:10px 10px; position: absolute; left:535px; height:250px; background-color: aquamarine;">
+        <h1 style="left:32px; position:absolute;top:-10px">FriendBot</h1>
+        <img src="pedro.gif" style="width: 180px; height: 170px; left: 27px;top: 55px; position:absolute;border:7px solid #ff6666; border-radius:10px;">
+        <h2 style="position: relative; top: 200px; left: 4px;">Your new friend!</h2>
+        </div>
+        <br><br><br><br><br><br><br><br>
+        <div class="rectangle"></div><div class="arrow"></div>
+        <div class="rectangle2"></div><div class="arrow2"></div>
+        <ul style=" border:10px solid #91B2C7; border-style:double;">
+        <img style="position:  absolute; top: 293px; left: 440px; width: 350px; height: 268px" src="crayonbruh.png">
+        <img style="position:  absolute; top: 293px; left: 631px; width: 350px; height: 268px" src="crayonbruh.png">
+        <a style="position:relative; left: 440px; text-decoration: none;" href="index.html">Main</a>
+        <a style="position:relative; left: 490px; text-decoration: none;" href="Friend.html"> Talk to FriendBot</a>
+        <a style="position: relative; left: 520px; text-decoration: none" href="page3.html"> Find a Friend</a>
+        </ul>
+    <style>
+    .button {
+        align-items: center;
+        align-self: center;
+        margin:auto;
+        display:inline;
+        border-radius: 12px;
+        border-width: 12px;
+        border: white;
+        text-align: center;
+        font-size: 80px;
+        color: black;
+        background-color: lightcoral;
+        cursor: pointer;
+        font-family: 'Times New Roman', Times, serif;
+        border-radius: 8px;
+    }
+    #container{
+        text-align: center;
+    }
+    body {background-color: aquamarine;
+        font-size: 19px;
+        font-weight: normal;
+        line-height: 40px;
+        font-family: Helvetica, sans-serif;;
+    }
+    </style>
+        <p style='margin: 80px 80px; padding: 10px 10px; border: 10px solid #666;border-radius: 10px; background-color: lightyellow;'>Tired of talking to FriendBot? <strong>You can try your luck on talking to other real strangers! </strong>Think of it like omegle but with a few rules and guidelines!
+            What Find a Friend does is pick a stranger that you can chat with. You can turn on your camera if you feel comfortable and we are NOT responsible for the spreading of addresses, passwords and other personal details. We also have rules and guidelines to prohibit some words that could encourage self-harm and have a system to show people who are trusted.
+        </p>
+        <div id="container">
+            <button class = "button" onclick="alert('This is not complete')">Find a friend</button>
+        </div>
+        <br><br><br><br><br><br><br><br><br>
+    </body>
+</html>
