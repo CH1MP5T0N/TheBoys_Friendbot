@@ -79,3 +79,4 @@ const alternative = [
 const coronavirus = ["Please stay home", "Wear a mask", "Fortunately, I don't have COVID", "These are uncertain times", "Stay safe"]
 const games = ["Im sort of a gamer myself", "I'm Global Elite in CSGO, no aimbot promise =)"]
 const name = ["Hey there Champ, My name is FriendBot", "Nice name it perfectly fits who you are", "My name is FriendBot, Nice to meet you"]
+const wilson = ["wil... wilss... wilsoooooooooooooooooooooooooooon!!!!!!!!"]
