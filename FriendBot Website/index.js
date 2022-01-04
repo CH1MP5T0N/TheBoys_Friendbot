@@ -43,7 +43,7 @@ function output(input) {
     product = games[Math.floor(Math.random() * games.length)];
   }
     else if (text.match(/(wilson|Wilson|wil|Wil)/gi)){
-      product = wilson[Math.floor(Math.random() * wilson.length)]
+      product = wilson[Math.floor(Math.random() * wilson.length)];
     }
     else {
     // alternative else responses
