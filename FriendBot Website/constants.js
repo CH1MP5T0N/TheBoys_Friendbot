@@ -26,8 +26,8 @@ const prompts = [
   ["no","not sure","maybe","no thanks"],
   [""], 
   ["haha","ha","lol","hehe","funny","joke","lel"],
-  ["What do you think of philipus tandra adriel"]
-  ["sad","im sad right now","im not thinking straight","my mind is not clear","im depressed","im sad","depression","depressed"]
+  ["What do you think of philipus tandra adriel"],
+  ["sad","im sad right now","im not thinking straight","my mind is not clear","im depressed","im sad","depression","depressed"],
   ["can you tell me what to do", "can i get advice", "what should i do", "i dont know what to do", "i need help", "please help me","life sucks"]
 ]
 
@@ -62,8 +62,8 @@ const replies = [
   ["That's ok","I understand","What do you want to talk about?"],
   ["Please say something :("],
   ["Haha!","Good one!", "Very funny indeed lol"],
-  ["I think he is sucks"]
-  ["Hey man we all have our ups and downs, sometimes its just about going strong and being able to conquer your weaknesses","dont be so down, it'll get better I promise","When life gives you lemons, make lemonade"]
+  ["I think he is sucks"],
+  ["Hey man we all have our ups and downs, sometimes its just about going strong and being able to conquer your weaknesses","dont be so down, it'll get better I promise","When life gives you lemons, make lemonade"],
   ["I may not be able to help much because I am a robot, but please listen to me. Nothing lasts forever and things happen all the time theres nothing you or me can do about that but what we can do is change ourselves for the better and I swear to you, things will get better."]
   
 ]
