@@ -44,6 +44,7 @@ function output(input) {
   }
     else if (text.match(/(wilson|Wilson|wil|Wil)/gi)){
       product = wilson[Math.floor(Math.random() * wilson.length)]
+    }
     else {
     // alternative else responses
     product = alternative[Math.floor(Math.random() * alternative.length)];
