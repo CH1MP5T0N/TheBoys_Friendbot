@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Friendbot</title>
+    <link rel="icon" href="pacman.gif" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<style>
+    body{
+            background-color: aquamarine;
+            background-image: url("dust1.png"), url("dust2.png");
+            font-family: Helvetica, sans-serif;
+            font-size: 19px;
+            font-weight: normal;
+            line-height: 40px;
+        }
+
+            @keyframes float {
+      0% {
+        transform: translatey(0px);
+      }
+      50% {
+        transform: translatey(-40px);
+      }
+      100% {
+        transform: translatey(0px);
+      }
+    }
+
+    .logo {
+      width:150px;
+      margin: auto;
+      animation: float 8s ease-in-out infinite;
+    }
+
+    .logo:nth-child(2) {
+      position: absolute;
+      left:30%;
+      animation-delay: .7s;
+    }
+
+    #logoContainer {
+      position: relative;
+      margin: auto;
+      text-align:center;
+       width: 400px;
+    }
+
+    .rectangle{
+            width: 400px;
+            height: 45px;
+            position:  absolute;
+            top:  347px;
+            left: 9px;
+            background-color: #91B2C7;
+        }
+
+        .rectangle2{
+            width: 400px;
+            height: 45px;
+            position:  absolute;
+            top:  348px;
+            left: 945px;
+            background-color: #91B2C7;
+        }
+
+        .arrow{
+            width: 0;
+            height: 0px;
+            position: absolute;
+            top: 348px;
+            left:  409px;
+            border-top: 22px solid transparent;
+            border-left: 40px solid #91B2C7;
+            border-bottom: 22px solid transparent;
+        }
+
+        .arrow2{
+            width: 0;
+            height: 0px;
+            position: absolute;
+            top: 347px;
+            left:  905px;
+            border-top: 22px solid transparent;
+            border-right: 40px solid #91B2C7;
+            border-bottom: 22px solid transparent;
+        }
+
+
+</style>
+<body>
+    <div style="border: 10px solid #91B2C7;border-style: double;border-radius: 10px; padding:10px 10px; position: absolute; left:535px; height:290px; background-color: aquamarine; top: 9px">
+        <h1 style="left:32px; position:absolute;top:-10px">FriendBot</h1>
+        <img src="pedro.gif" style="width: 195px; height: 185px; left: 27px;top: 55px; position:absolute;border:7px solid #ff6666; border-radius:10px;">
+        <h2 style="position: relative; top: 200px; left: 4px;">Your new friend!</h2>
+        </div>
+        <br><br><br><br><br><br><br><br>
+        <div class="rectangle"></div><div class="arrow"></div>
+        <div class="rectangle2"></div><div class="arrow2"></div>
+        <ul style=" border:10px solid #91B2C7; border-style:double;">
+        <img style="position:  absolute; top: 283px; left: 440px; width: 350px; height: 268px" src="crayonbruh.png">
+        <img style="position:  absolute; top: 283px; left: 631px; width: 350px; height: 268px" src="crayonbruh.png">
+        <a style="position:relative; left: 440px; text-decoration: none" href="index.html">Main</a>
+        <a style="position:relative; left: 490px; text-decoration: none;" href="Friend.html"> Talk to FriendBot</a>
+        <a style="position: relative; left: 530px; text-decoration: none" href="page3.html"> Find a Friend</a>
+        </ul>
+        
+<div style="position:absolute; left: 840px; top: 520px"id="logoContainer">
+  <img  style="position: absolute;" class="logo" src="https://i.imgur.com/F96X9J0.png" />
+</div>
+    <div id="container" class="container" style="border: 10px solid #666; border-style:dashed; border-radius: 10px; background-color: lightyellow;">
+        <div id="chat" class="chat">
+            <div id="messages" class="messages"></div>
+            <input id="input" type="text" placeholder="Say something..." autocomplete="off" autofocus="true" />
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="index.js" ></script>
+<script type="text/javascript" src="constants.js" ></script>
+<script type="text/javascript" src="speech.js" ></script>
+<p style="position:absolute; top:960px; left: 50px; font-size:32px;font-style: italic; font-family: timesnewroman;">"Many of life's failures are people who did not realize how close they were to</p>
+<p style="position:absolute; top:1000px; left: 60px; font-size:32px;font-style: italic; font-family: timesnewroman;">success when they gave up"<p>
+<p style="position:absolute; top:1040px; left: 540px; font-size:32px;font-style: italic; font-family: timesnewroman;">-Thomas.A.Edison</p>
+
+</html>
