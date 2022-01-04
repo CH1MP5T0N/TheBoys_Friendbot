@@ -1,0 +1,185 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="icon" href="pacman.gif" />
+        <title>FriendBot</title>
+    </head>
+    <style type="text/css">
+        body{
+            background-color: aquamarine;
+            background-image: url("dust1.png"), url("dust2.png");
+            font-family: Helvetica, sans-serif;
+            font-size: 19px;
+            font-weight: normal;
+            line-height: 40px;
+        }
+
+        .rectangle{
+            width: 400px;
+            height: 45px;
+            position:  absolute;
+            top:  355px;
+            left: 15px;
+            background-color: #91B2C7;
+        }
+
+        .rectangle2{
+            width: 400px;
+            height: 45px;
+            position:  absolute;
+            top:  355px;
+            left: 940px;
+            background-color: #91B2C7;
+        }
+
+        .arrow{
+            width: 0;
+            height: 0px;
+            position: absolute;
+            top: 355px;
+            left:  414px;
+            border-top: 22px solid transparent;
+            border-left: 40px solid #91B2C7;
+            border-bottom: 22px solid transparent;
+        }
+
+        .arrow2{
+            width: 0;
+            height: 0px;
+            position: absolute;
+            top: 355px;
+            left:  900px;
+            border-top: 22px solid transparent;
+            border-right: 40px solid #91B2C7;
+            border-bottom: 22px solid transparent;
+        }
+
+        .talk-bubble {
+            margin: 40px;
+          display: inline-block;
+          position: relative;
+            width: 1000px;
+            height: 500px;
+            background-color: lightyellow;
+        }
+
+        .talk-bubble2 {
+            margin: 40px;
+          display: inline-block;
+          position: relative;
+            width: 1000px;
+            height: 420px;
+            right: -240px;
+            background-color: lightyellow;
+        }
+
+        .border{
+          border: 8px solid #666;
+        }
+        .round{
+          border-radius: 30px;
+            -webkit-border-radius: 30px;
+            -moz-border-radius: 30px;
+
+        }
+
+        .tri-right.border.right-top:before {
+            content: ' ';
+            position: absolute;
+            width: 0;
+            height: 0;
+          left: auto;
+            right: -40px;
+          top: -8px;
+            bottom: auto;
+            border: 32px solid;
+            border-color: #666 transparent transparent transparent;
+        }
+        .tri-right.right-top:after{
+            content: ' ';
+            position: absolute;
+            width: 0;
+            height: 0;
+          left: auto;
+            right: -20px;
+          top: -0.5px;
+            bottom: auto;
+            border: 20px solid;
+            border-color: lightyellow transparent transparent transparent;
+        }
+
+        .tri-right.border.left-top:before {
+            content: ' ';
+            position: absolute;
+            width: 0;
+            height: 0;
+          left: auto;
+            right: 970px;
+          top: -8px;
+            bottom: auto;
+            border: 32px solid;
+            border-color: #666 transparent transparent transparent;
+        }
+        .tri-right.left-top:after{
+            content: ' ';
+            position: absolute;
+            width: 0;
+            height: 0;
+          left: auto;
+            right: 977px;
+          top: -0.5px;
+            bottom: auto;
+            border: 20px solid;
+            border-color: lightyellow transparent transparent transparent;
+        }
+
+        /* talk bubble contents */
+        .talktext{
+          padding: 1em;
+            text-align: left;
+          line-height: 1.5em;
+        }
+        .talktext p{
+          /* remove webkit p margins */
+          -webkit-margin-before: 0em;
+          -webkit-margin-after: 0em;
+        }
+    </style>
+    <body>
+        <div style="border: 10px solid #91B2C7;border-style: double;border-radius: 10px; padding:10px 10px; position: absolute; left:535px; height:250px; background-color: aquamarine;">
+        <h1 style="left:32px; position:absolute;top:-10px">FriendBot</h1>
+        <img src="pedro.gif" style="width: 180px; height: 170px; left: 27px;top: 55px; position:absolute;border:7px solid #ff6666; border-radius:10px;">
+        <h2 style="position: relative; top: 200px; left: 4px;">Your new friend!</h2>
+        </div>
+        <br><br><br><br><br><br><br><br>
+        <div class="rectangle"></div><div class="arrow"></div>
+        <div class="rectangle2"></div><div class="arrow2"></div>
+        <ul style=" border:10px solid #91B2C7; border-style:double;">
+        <img style="position:  absolute; top: 293px; left: 440px; width: 350px; height: 268px" src="crayonbruh.png">
+        <img style="position:  absolute; top: 293px; left: 631px; width: 350px; height: 268px" src="crayonbruh.png">
+        <a style="position:relative; left: 440px; text-decoration: none" href="index.html">Main</a>
+        <a style="position:relative; left: 490px; text-decoration: none;" href="Friend.html"> Talk to FriendBot</a>
+        <a style="position: relative; left: 520px; text-decoration: none" href="page3.html"> Find a Friend</a>
+        </ul>
+        <div class="talk-bubble tri-right round border right-top">
+            <div class="talktext">
+                <p style='margin: 80px 80px; padding: 10px 10px;'>Hello, we are <strong>FriendBot!</strong> Your chat bot buddy. Sometimes all we need is someone to talk to, but sometimes it is hard to talk to other people, so we wanted to create a website that could host a chat bot that will always accompany you. So that no one could ever be lonely again. That is our <strong>ultimate goal</strong>. Our chatbot can be used for many purposes but our main purpose is to supply people with the thought of
+                having someone to talk to and never feeling truly alone, after all being alone is not how us humans were meant to be. We are born as social creatures and we always are constantly looking for someone to talk to and listen to all our troubles so that we feel that we are not alone is this world. We may not be able to sustain a person's loneliness for the long term but for now this is the best we can do. From the bottom of my and our team's heart we wish that everyone reading this can understand that we need to work together as a species for our own good.</p>
+            </div>
+        </div>
+        <img src="Peter.jpeg" style="position:absolute; width: 200px; height:200px; top:446px; left:1120px; border: 10px solid #91B2C7; border-style: dashed; border-radius: 10px;">
+        <p style="position:absolute; top: 650px; left: 1130px"><i>Peter Nelson Subrata,<i></p>
+            <p style="position:absolute; top: 675px; left: 1130px">Creator of FriendBot,</p>
+                <p style="position:absolute; top: 700px; left: 1130px">The Boys</p>
+        <div class="talk-bubble2 tri-right round border left-top">
+            <div class="talktext">
+        <p style=' margin: 80px 80px; padding: 10px 10px;'>We were motivated to create this when we noticed the problems in society. <strong>Loneliness</strong> and <strong>isolation</strong> are one of their <strong>biggest</strong> problems and suicide rates have been <strong>increasing</strong> throughout the years. Although our population has been increasing, somehow we have become more isolated and lonely. <strong>Sometimes people don't understand that being around others can still be lonely.</strong> That's why we decided to create this website. We are tired of seeing people who dont seem to care about others but themselves and we are here to help those in need of companionship. We accomodate and reach to those who have been struggling with living for their entire lives. After all once you hit rock bottom the only way to go is up. </p>
+    </div>
+</div>
+    <img src="phil.jpg" style="position:absolute; width: 200px; height:200px; top:1042px; left:20px; border: 10px solid #91B2C7; border-style: dashed; border-radius: 10px;">
+            <p style="position:absolute; top: 1246px; left: 30px"><i>Philipus Tandra Adriel,<i></p>
+                <p style="position:absolute; top: 1271px; left: 30px">Creator of FriendBot,</p>
+                    <p style="position:absolute; top: 1296px; left: 30px">The Boys</p>
+    </body>s
+</html>
