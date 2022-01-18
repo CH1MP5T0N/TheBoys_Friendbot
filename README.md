@@ -14,7 +14,7 @@ FriendBot is a website that is catered and targeted for the sole purpose of elim
 
 ## Features:  
 Eye-catching and pleasant design <br />
-Responsive Chatbot
+Responsive Chatbot <br />
 Multiple Pages 
 
 
