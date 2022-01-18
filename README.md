@@ -1,6 +1,6 @@
 # FriendBot
 FriendBot  
-**Live link : https://ch1mp5t0n.github.io/TheBoys_Friendbot/FriendBot%20Website/index.html
+**Live link : **https://ch1mp5t0n.github.io/TheBoys_Friendbot/FriendBot%20Website/index.html
 
 Class Name: L1CC  
 Course: Human Computer Interaction (COMP68000)  
