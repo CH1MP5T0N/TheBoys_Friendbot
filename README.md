@@ -19,10 +19,10 @@ FriendBot is a website that is catered and targeted for the sole purpose of elim
 
 
 ## Other Info:  
-index.html = about us page  
-Friend.html = chatbot page  
-page3.html = video call page  
+* index.html = about us page  
+* Friend.html = chatbot page  
+* page3.html = video call page  
   
   
-Our report includes all of the extra requirements for the project in the rubric, you can find the report in the docs folder.  
+*Our report includes all of the extra requirements for the project in the rubric, you can find the report in the docs folder.  
 
