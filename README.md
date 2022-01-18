@@ -2,10 +2,10 @@
 **FriendBot**<br />
 Live link :https://ch1mp5t0n.github.io/TheBoys_Friendbot/FriendBot%20Website/index.html
 
-Class Name: L1CC  
-Course: Human Computer Interaction (COMP68000)  
-Team: 'The Boys'  
-Member:  
+**Class Name:** L1CC  
+**Course:** Human Computer Interaction (COMP68000)  
+**Team:** 'The Boys'  
+**Member:**  
 Peter Nelson Subrata - 2502023562  
 Philipus Adriel Tandra - 2502031715
 
