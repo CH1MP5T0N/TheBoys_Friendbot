@@ -3,6 +3,11 @@
     <head>
         <meta charset="UTF-8">
         <link rel="icon" href="pacman.gif" />
+        <script type="text/javascript" src = "main.js"></script>
+        <script type="text/javascript" src = "index.js"></script>
+        <script type="text/javascript" src="constants.js" ></script>
+        <script type="text/javascript" src="speech.js" ></script>
+        <link rel ="stylesheet" href="style.css">
         <title>FriendBot</title>
     </head>
     <style type="text/css">
@@ -14,6 +19,10 @@
             font-size: 19px;
             font-weight: normal;
             line-height: 40px;
+        }
+
+        .avatar {
+            height: 25px;
         }
 
         .rectangle{
@@ -55,10 +64,12 @@
             border-right: 40px solid #91B2C7;
             border-bottom: 22px solid transparent;
         }
+
     </style>
     <body>
         <div style="border: 10px solid #91B2C7;border-style: double;border-radius: 10px; padding:10px 10px; position: absolute; left:535px; height:250px; background-color: aquamarine;">
-        <h1 style="left:32px; position:absolute;top:-10px">FriendBot</h1>
+        <h1 style="left:32px; position:absolute;top:-10px; font-family: arial;">Friend</h1>
+        <img style="position:absolute; left:150px;top:19px; width: 75px; height:32px" src="bot.png">
         <img src="pedro.gif" style="width: 180px; height: 170px; left: 27px;top: 55px; position:absolute;border:7px solid #ff6666; border-radius:10px;">
         <h2 style="position: relative; top: 200px; left: 4px;">Your new friend!</h2>
         </div>
@@ -74,6 +85,13 @@
         </ul>
         <br><br><br>
     <style>
+    #myCanvas{
+        position: absolute;
+        top: 758px;
+        width: 605px;
+        height: 590px;
+        left:  -83px;
+    }
     .button {
         align-items: center;
         align-self: center;
@@ -90,22 +108,66 @@
         font-family: 'Times New Roman', Times, serif;
         border-radius: 8px;
     }
-    #container{
-        text-align: center;
-    }
+
     body {background-color: aquamarine;
         font-size: 19px;
         font-weight: normal;
         line-height: 40px;
-        font-family: Helvetica, sans-serif;;
+        font-family: Helvetica, sans-serif;
     }
+
+        input { 
+        border: 0; 
+        padding: 15px; 
+        margin-left: auto;
+        border-radius: 10px; 
+        width: 740px;
+        position: absolute;
+        left: 470px;
+        top: 1300px;
+    }
+
+    .messages {
+        display: flex;
+        flex-direction: column;
+        overflow: scroll;
+        position: absolute;
+        height: 500px;
+        width: 750px;
+        left: 450px;
+        top: 750px;
+        background-color: white;
+        padding: 15px;
+        margin: 15px;
+        border-radius: 10px;
+    }
+
+        .chat {
+        height: 300px;
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    } 
     </style>
         <p style='margin: 80px 80px; padding: 10px 10px; border: 10px solid #666;border-radius: 10px; background-color: lightyellow;'>Tired of talking to FriendBot? <strong>You can try your luck on talking to other real strangers! </strong>Think of it like omegle but with a few rules and guidelines!
             What Find a Friend does is pick a stranger that you can chat with. You can turn on your camera if you feel comfortable and we are NOT responsible for the spreading of addresses, passwords and other personal details. We also have rules and guidelines to prohibit some words that could encourage self-harm and have a system to show people who are trusted.
         </p>
+        <p style='margin: 80px 80px; border: 10px solid #666;border-radius: 10px; background-color: lightyellow; height: 600px; width: 300px; position:absolute; top: 670px; left:10px'>
+            <img style="width: 300px;height: 300px; position: absolute;" src="blank.png">
+            <img style="width: 300px; height: 300px; position: absolute; top: 300px" src="blank.png">
+        </p>
+        <p style='margin: 80px 80px; border: 10px solid #666;border-radius: 10px; background-color: lightyellow; height: 600px; width: 800px; position:absolute; top: 670px; left: 365px;'></p>
         <div id="container">
-            <button class = "button" onclick="alert('This is not complete')">Find a friend</button>
+            <button style="position:absolute; top: 1400px; left: 500px" class = "button" onclick="main()">Find a friend</button>
         </div>
-        <br><br><br><br><br><br><br><br><br>
+        <div id= "container" class="container">
+        <div id="chat" class="chat">
+            <div id="messages" class="messages"></div>
+            <input id="input" type="text" placeholder="Say something to your new friend....." autocomplete="off" autofocus="true" />
+        </div>
+    </div>
+        <canvas id = "myCanvas"></canvas>
     </body>
 </html>
