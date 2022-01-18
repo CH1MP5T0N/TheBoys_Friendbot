@@ -24,5 +24,5 @@ FriendBot is a website that is catered and targeted for the sole purpose of elim
 * page3.html = video call page  
   
   
-*Our report includes all of the extra requirements for the project in the rubric, you can find the report in the docs folder.  
+*Our report includes all of the extra requirements for the project in the rubric, you can find the report in the docs folder.*  
 
