@@ -50,7 +50,7 @@ const replies = [
   ],
   ["I am as old as time itself, been here since the beginning and I'll be here in the end."],
   ["I am just a bot with feelings", "I am a bot with feelings. What are you?"],
-  ["My creator is Peter Nelson Subrata, he is very cool and sexy"],
+  ["My creator is Peter Nelson Subrata, he is very cool and sexy and also Philipus Adriel Tandra :)"],
   ["My name is FriendBot, Nice to meet you", "You don't need to know my name, just know that we are friends =)"],
   ["I love you too", "Me too"],
   ["Have you ever felt bad?", "Glad to hear it"],
