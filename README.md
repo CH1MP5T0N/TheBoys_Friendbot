@@ -9,16 +9,16 @@ Live link :https://ch1mp5t0n.github.io/TheBoys_Friendbot/FriendBot%20Website/ind
 Peter Nelson Subrata - 2502023562  
 Philipus Adriel Tandra - 2502031715
 
-**Description of the App:**  
+## Description of the App:
 FriendBot is a website that is catered and targeted for the sole purpose of eliminating loneliness. In other words, FriendBot acts as a friend and is always there. There are also other features such as the "Find a Friend" that serves to help people connect and meet strangers and potentially make new friends. 
 
-**Features**:  
+## Features:  
 Eye-catching and pleasant design
 Responsive Chatbot
 Multiple Pages 
 
 
-**Other Info**:  
+## Other Info:  
 Jvv.html = main page  
 Aboutus.html = About us page  
 menu.html = menu page  
