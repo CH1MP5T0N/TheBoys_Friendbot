@@ -15,7 +15,7 @@ FriendBot is a website that is catered and targeted for the sole purpose of elim
 Eye-catching and pleasant design <br />
 Responsive Chatbot <br />
 Multiple Pages 
-
+![Uploading Image8.jpg…]()
 
 ## Other Info:  
 Jvv.html = main page  
