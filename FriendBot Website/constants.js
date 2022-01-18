@@ -29,7 +29,7 @@ const prompts = [
   ["What do you think of philipus tandra adriel"],
   ["sad","im sad right now","im not thinking straight","my mind is not clear","im depressed","im sad","depression","depressed"],
   ["can you tell me what to do", "can i get advice", "what should i do", "i dont know what to do", "i need help", "please help me","life sucks"],
-  ["want to be friends"],
+  ["do you want to be my friend"],
   ["of course"]
 ]
 
