@@ -145,6 +145,21 @@
           -webkit-margin-before: 0em;
           -webkit-margin-after: 0em;
         }
+
+        .bouncy{
+            animation:bouncy 5s infinite linear;
+            position:relative;
+            }
+            @keyframes bouncy {
+            0%{top:0em}
+            40%{top:0em}
+            43%{top:-0.9em}
+            46%{top:0em}
+            48%{top:-0.4em}
+            50%{top:0em}
+            100%{top:0em;}
+            }
+
     </style>
     <body>
         <div style="border: 10px solid #91B2C7;border-style: double;border-radius: 10px; padding:10px 10px; position: absolute; left:535px; height:250px; background-color: aquamarine;">
@@ -159,9 +174,9 @@
         <ul style=" border:10px solid #91B2C7; border-style:double; position: absolute;top: 329px; left:8px; width: 1280px">
         <img style="position:  absolute; top: -63px; left: 420px; width: 350px; height: 268px" src="crayonbruh.png">
         <img style="position:  absolute; top: -63px; left: 611px; width: 350px; height: 268px" src="crayonbruh.png">
-        <a style="position:relative; left: 440px; text-decoration: none; top: 0px" href="index.html">Main</a>
-        <a style="position:relative; left: 490px; text-decoration: none; width: 200px; top: 0px" href="Friend.html"> Talk to FriendBot</a>
-        <a style="position: relative; left: 520px; text-decoration: none; width: 250px; top: 0px" href="page3.html"> Find a Friend</a>
+        <a style="position:relative; left: 440px; text-decoration: none; top: 0px" href="index.html" class="button1 bouncy">Main</a>
+        <a style="position:relative; left: 490px; text-decoration: none; width: 200px; top: 0px; animation-delay: 0.07s;" href="Friend.html" class="button1 bouncy"> Talk to FriendBot</a>
+        <a style="position: relative; left: 520px; text-decoration: none; width: 250px; top: 0px; animation-delay: 0.14s" href="page3.html" class="button1 bouncy"> Find a Friend</a>
         </ul>
         <br><br><br>
         <div class="talk-bubble tri-right round border right-top">
@@ -170,7 +185,7 @@
                 having someone to talk to and never feeling truly alone, after all being alone is not how us humans were meant to be. We are born as social creatures and we always are constantly looking for someone to talk to and listen to all our troubles so that we feel that we are not alone is this world. We may not be able to sustain a person's loneliness for the long term but for now this is the best we can do. From the bottom of my and our team's heart we wish that everyone reading this can understand that we need to work together as a species for our own good.</p>
             </div>
         </div>
-        <img src="peter.jpg" style="position:absolute; width: 200px; height:200px; top:446px; left:1120px; border: 10px solid #91B2C7; border-style: dashed; border-radius: 10px;">
+        <img src="Peter.jpeg" style="position:absolute; width: 200px; height:200px; top:446px; left:1120px; border: 10px solid #91B2C7; border-style: dashed; border-radius: 10px;">
         <p style="position:absolute; top: 650px; left: 1130px"><i>Peter Nelson Subrata,<i></p>
             <p style="position:absolute; top: 675px; left: 1130px">Creator of FriendBot,</p>
                 <p style="position:absolute; top: 700px; left: 1130px">The Boys</p>
