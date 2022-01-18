@@ -1,5 +1,4 @@
 # FriendBot
-**FriendBot:**<br />
 Live link :https://ch1mp5t0n.github.io/TheBoys_Friendbot/FriendBot%20Website/index.html
 
 **Class Name:** L1CC  
